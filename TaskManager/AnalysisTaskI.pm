@@ -10,7 +10,7 @@ uses TaskManager::ResultSetI
 
 =cut
 
-package TaskManager::AnalysisTaskI.pm;
+package TaskManager::AnalysisTaskI;
 use Carp;
 use strict;
 use vars qw($AUTOLOAD @ISA);

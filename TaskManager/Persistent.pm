@@ -10,7 +10,7 @@ uses FreezeThaw (available from CPAN)
 
 =cut
 
-package TaskManager::Persistent.pm;
+package TaskManager::Persistent;
 
 use Carp;
 use strict;

@@ -12,7 +12,7 @@ uses TaskManager::ErrorHandlerI
 
 =cut
 
-package TaskManager::SchedulerI.pm;
+package TaskManager::SchedulerI;
 
 use Carp;
 use strict;

@@ -6,7 +6,7 @@ TaskManager::ResultHandlerI -
 
 =cut
 
-package TaskManager::ResultHandlerI.pm;
+package TaskManager::ResultHandlerI;
 
 use Carp;
 use strict;

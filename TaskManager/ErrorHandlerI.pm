@@ -6,7 +6,7 @@ TaskManager::ErrorHandlerI -
 
 =cut
 
-package TaskManager::ErrorHandlerI.pm;
+package TaskManager::ErrorHandlerI;
 
 use Carp;
 use strict;

@@ -14,7 +14,7 @@ information.
 
 =cut
 
-package TaskManager::TicketI.pm;
+package TaskManager::TicketI;
 
 use Carp;
 use strict;

@@ -16,7 +16,7 @@ uses TaskManager::SchedulerI
 
 =cut
 
-package TaskManager::ManagerI.pm;
+package TaskManager::ManagerI;
 
 use Carp;
 use strict;

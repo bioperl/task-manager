@@ -7,7 +7,7 @@ an analsys
 
 =cut
 
-package TaskManager::ResultSetI.pm;
+package TaskManager::ResultSetI;
 
 use Carp;
 use strict;

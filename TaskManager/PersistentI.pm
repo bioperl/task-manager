@@ -6,7 +6,7 @@ TaskManager::PersistentI -
 
 =cut
 
-package TaskManager::PersistentI.pm;
+package TaskManager::PersistentI;
 
 use Carp;
 use strict;
