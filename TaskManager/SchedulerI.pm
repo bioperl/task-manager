@@ -25,7 +25,7 @@ use TaskManager::ErrorHandlerI
 
 =head1 PUBLIC METHODS
 
-=head2 submit
+=head2 submit_analysis_task
 
 parameters: AnalsysisTaskI,
 ref to array of ResultHandlerI, 
@@ -35,8 +35,20 @@ returns: TicketI
 
 =cut
 
-sub submit {
+sub submit_analysis_task {
 
+}
+
+=head2 submit_analysis_task_graph
+
+parameters: AnalysisTaskGraphI
+
+transforms a collection of AnalysisTasks with specified dependencies
+into the underlying scheduling systems batch queuing notation
+
+=cut
+
+sub submit_analysis_task_graph {
 }
 
 =head2 get_status
@@ -63,7 +75,7 @@ sub is_finished {
 =head get_analysis_task
 
 parameters: TicketI
-returns: AnalysisTaskI
+returns: AnalysisnTaskI
 
 =cut
 

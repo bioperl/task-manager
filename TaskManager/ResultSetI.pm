@@ -17,13 +17,15 @@ use Exporter;
 
 =head1 PUBLIC METHODS
 
-=head2 insert
+=head2 store
 
 =cut
 
-sub insert {
+sub store {
 
 }
+
+
 
 
 1;
