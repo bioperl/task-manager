@@ -50,6 +50,26 @@ sub get_status {
 
 }
 
+=head is_finished
+
+parameters: TicketI
+
+=cut
+
+sub is_finished {
+    
+}
+
+=head get_analysis_task
+
+parameters: TicketI
+returns: AnalysisTaskI
+
+=cut
+
+sub get_analysis_task {
+    
+}
 
 1;
 
